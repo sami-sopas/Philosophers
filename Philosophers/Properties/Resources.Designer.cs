@@ -63,6 +63,16 @@ namespace Philosophers.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EatingPlate {
+            get {
+                object obj = ResourceManager.GetObject("EatingPlate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fork0 {
             get {
                 object obj = ResourceManager.GetObject("Fork0", resourceCulture);
@@ -156,6 +166,26 @@ namespace Philosophers.Properties {
         internal static System.Drawing.Bitmap Fork4A {
             get {
                 object obj = ResourceManager.GetObject("Fork4A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap table {
+            get {
+                object obj = ResourceManager.GetObject("table", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WaitingPlate {
+            get {
+                object obj = ResourceManager.GetObject("WaitingPlate", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

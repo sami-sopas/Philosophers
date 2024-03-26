@@ -36,11 +36,11 @@ namespace Philosophers
 
         private void InitializePhilosophers()
         {
-            philosophers[0] = new Philosopher(0, 4, 0, PB_Fork4, PB_Fork0, LBL_Philosopher0, forks, LB_Info);
-            philosophers[1] = new Philosopher(1, 0, 1, PB_Fork0, PB_Fork1, LBL_Philosopher1, forks, LB_Info);
-            philosophers[2] = new Philosopher(2, 1, 2, PB_Fork1, PB_Fork2, LBL_Philosopher2, forks, LB_Info);
-            philosophers[3] = new Philosopher(3, 2, 3, PB_Fork2, PB_Fork3, LBL_Philosopher3, forks, LB_Info);
-            philosophers[4] = new Philosopher(4, 3, 4, PB_Fork3, PB_Fork4, LBL_Philosopher4, forks, LB_Info);
+            philosophers[0] = new Philosopher(0, 4, 0, PB_Fork4, PB_Fork0, PB_Plate0, LBL_Philosopher0, forks, LB_Info);
+            philosophers[1] = new Philosopher(1, 0, 1, PB_Fork0, PB_Fork1, PB_Plate1, LBL_Philosopher1, forks, LB_Info);
+            philosophers[2] = new Philosopher(2, 1, 2, PB_Fork1, PB_Fork2, PB_Plate2, LBL_Philosopher2, forks, LB_Info);
+            philosophers[3] = new Philosopher(3, 2, 3, PB_Fork2, PB_Fork3, PB_Plate3, LBL_Philosopher3, forks, LB_Info);
+            philosophers[4] = new Philosopher(4, 3, 4, PB_Fork3, PB_Fork4, PB_Plate4, LBL_Philosopher4, forks, LB_Info);
 
             this.Refresh();
         }

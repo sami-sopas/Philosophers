@@ -23,17 +23,28 @@ namespace Philosophers
         ListBox listBox = null;
         Image forkLeftImg = null, forkRightImg = null;
         PictureBox forkLeft = null, forkRight = null;
+        PictureBox plate = null;
 
         Color waitingColor = Color.FromName("SkyBlue");
         Color eatingColor = Color.FromName("LimeGreen");
 
-        public Philosopher(int id, int forkOne, int forkTwo, PictureBox forkLeft, PictureBox forkRight, Label box, Semaphore[] forks, ListBox listBox)
+        public Philosopher(int id,
+                            int forkOne,
+                            int forkTwo,
+                            PictureBox forkLeft,
+                            PictureBox forkRight,
+                            PictureBox plate,
+                            Label box,
+                            Semaphore[] forks,
+                            ListBox listBox
+        )
         {
             this.id = id;
             this.forkOne = forkOne;
             this.forkTwo = forkTwo;
             this.forkLeft = forkLeft;
             this.forkRight = forkRight;
+            this.plate = plate;
             this.box = box;
             this.forks = forks;
 
@@ -41,6 +52,7 @@ namespace Philosophers
 
             changeForksStateUI(false);
             changePhilosopherBoxStateUI(waitingColor);
+            changePhilosopherPlateUI(false);
         }
 
         public int getID()
@@ -74,10 +86,12 @@ namespace Philosophers
                 case 'W':
                     changeForksStateUI(false);
                     changePhilosopherBoxStateUI(waitingColor);
+                    changePhilosopherPlateUI(false);
                     break;
                 case 'E':
                     changeForksStateUI(true);
                     changePhilosopherBoxStateUI(eatingColor);
+                    changePhilosopherPlateUI(true);
                     break;
                 default:
                     break;
@@ -114,10 +128,18 @@ namespace Philosophers
             this.forkLeft.Image = forkLeftImg;
             this.forkRight.Image = forkRightImg;
         }
+
         private void changePhilosopherBoxStateUI(Color color)
         {
             box.ForeColor = color;
         }
+
+        private void changePhilosopherPlateUI(bool isEating)
+        {
+            plate.Image = isEating ? Philosophers.Properties.Resources.EatingPlate : Philosophers.Properties.Resources.WaitingPlate;
+        }
+
+
         public void updateMeals()
         {
             listBox.Items[id] = ($"Filósofo {id + 1} Comidas: {meals}");
