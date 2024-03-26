@@ -30,22 +30,22 @@
         {
             this.startButton = new System.Windows.Forms.Button();
             this.BW_UpdateForm = new System.ComponentModel.BackgroundWorker();
-            this.PB_Fork3 = new System.Windows.Forms.PictureBox();
-            this.PB_Fork2 = new System.Windows.Forms.PictureBox();
-            this.PB_Fork4 = new System.Windows.Forms.PictureBox();
-            this.PB_Fork1 = new System.Windows.Forms.PictureBox();
-            this.PB_Fork0 = new System.Windows.Forms.PictureBox();
             this.LBL_Philosopher0 = new System.Windows.Forms.Label();
             this.LBL_Philosopher4 = new System.Windows.Forms.Label();
             this.LBL_Philosopher3 = new System.Windows.Forms.Label();
             this.LBL_Philosopher2 = new System.Windows.Forms.Label();
             this.LBL_Philosopher1 = new System.Windows.Forms.Label();
             this.LB_Info = new System.Windows.Forms.ListBox();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork1)).BeginInit();
+            this.PB_Fork0 = new System.Windows.Forms.PictureBox();
+            this.PB_Fork1 = new System.Windows.Forms.PictureBox();
+            this.PB_Fork4 = new System.Windows.Forms.PictureBox();
+            this.PB_Fork2 = new System.Windows.Forms.PictureBox();
+            this.PB_Fork3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Fork0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork3)).BeginInit();
             this.SuspendLayout();
             // 
             // startButton
@@ -58,45 +58,11 @@
             this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
-            // PB_Fork3
+            // BW_UpdateForm
             // 
-            this.PB_Fork3.Location = new System.Drawing.Point(543, 199);
-            this.PB_Fork3.Name = "PB_Fork3";
-            this.PB_Fork3.Size = new System.Drawing.Size(114, 97);
-            this.PB_Fork3.TabIndex = 1;
-            this.PB_Fork3.TabStop = false;
-            // 
-            // PB_Fork2
-            // 
-            this.PB_Fork2.Location = new System.Drawing.Point(663, 199);
-            this.PB_Fork2.Name = "PB_Fork2";
-            this.PB_Fork2.Size = new System.Drawing.Size(105, 98);
-            this.PB_Fork2.TabIndex = 2;
-            this.PB_Fork2.TabStop = false;
-            // 
-            // PB_Fork4
-            // 
-            this.PB_Fork4.Location = new System.Drawing.Point(448, 313);
-            this.PB_Fork4.Name = "PB_Fork4";
-            this.PB_Fork4.Size = new System.Drawing.Size(124, 98);
-            this.PB_Fork4.TabIndex = 3;
-            this.PB_Fork4.TabStop = false;
-            // 
-            // PB_Fork1
-            // 
-            this.PB_Fork1.Location = new System.Drawing.Point(785, 286);
-            this.PB_Fork1.Name = "PB_Fork1";
-            this.PB_Fork1.Size = new System.Drawing.Size(116, 116);
-            this.PB_Fork1.TabIndex = 4;
-            this.PB_Fork1.TabStop = false;
-            // 
-            // PB_Fork0
-            // 
-            this.PB_Fork0.Location = new System.Drawing.Point(616, 370);
-            this.PB_Fork0.Name = "PB_Fork0";
-            this.PB_Fork0.Size = new System.Drawing.Size(108, 121);
-            this.PB_Fork0.TabIndex = 5;
-            this.PB_Fork0.TabStop = false;
+            this.BW_UpdateForm.WorkerReportsProgress = true;
+            this.BW_UpdateForm.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BW_UpdateForm_DoWork);
+            this.BW_UpdateForm.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BW_UpdateForm_ProgressChanged);
             // 
             // LBL_Philosopher0
             // 
@@ -142,7 +108,7 @@
             // LBL_Philosopher1
             // 
             this.LBL_Philosopher1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher1.Location = new System.Drawing.Point(766, 480);
+            this.LBL_Philosopher1.Location = new System.Drawing.Point(781, 496);
             this.LBL_Philosopher1.Name = "LBL_Philosopher1";
             this.LBL_Philosopher1.Size = new System.Drawing.Size(82, 93);
             this.LBL_Philosopher1.TabIndex = 11;
@@ -168,6 +134,56 @@
             this.LB_Info.Sorted = true;
             this.LB_Info.TabIndex = 15;
             // 
+            // PB_Fork0
+            // 
+            this.PB_Fork0.Image = global::Philosophers.Properties.Resources.Fork0;
+            this.PB_Fork0.Location = new System.Drawing.Point(616, 427);
+            this.PB_Fork0.Name = "PB_Fork0";
+            this.PB_Fork0.Size = new System.Drawing.Size(130, 152);
+            this.PB_Fork0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork0.TabIndex = 5;
+            this.PB_Fork0.TabStop = false;
+            // 
+            // PB_Fork1
+            // 
+            this.PB_Fork1.Image = global::Philosophers.Properties.Resources.Fork1;
+            this.PB_Fork1.Location = new System.Drawing.Point(835, 370);
+            this.PB_Fork1.Name = "PB_Fork1";
+            this.PB_Fork1.Size = new System.Drawing.Size(116, 116);
+            this.PB_Fork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork1.TabIndex = 4;
+            this.PB_Fork1.TabStop = false;
+            // 
+            // PB_Fork4
+            // 
+            this.PB_Fork4.Image = global::Philosophers.Properties.Resources.Fork4;
+            this.PB_Fork4.Location = new System.Drawing.Point(429, 370);
+            this.PB_Fork4.Name = "PB_Fork4";
+            this.PB_Fork4.Size = new System.Drawing.Size(124, 123);
+            this.PB_Fork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork4.TabIndex = 3;
+            this.PB_Fork4.TabStop = false;
+            // 
+            // PB_Fork2
+            // 
+            this.PB_Fork2.Image = global::Philosophers.Properties.Resources.Fork2;
+            this.PB_Fork2.Location = new System.Drawing.Point(758, 155);
+            this.PB_Fork2.Name = "PB_Fork2";
+            this.PB_Fork2.Size = new System.Drawing.Size(105, 98);
+            this.PB_Fork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork2.TabIndex = 2;
+            this.PB_Fork2.TabStop = false;
+            // 
+            // PB_Fork3
+            // 
+            this.PB_Fork3.Image = global::Philosophers.Properties.Resources.Fork3;
+            this.PB_Fork3.Location = new System.Drawing.Point(458, 156);
+            this.PB_Fork3.Name = "PB_Fork3";
+            this.PB_Fork3.Size = new System.Drawing.Size(114, 114);
+            this.PB_Fork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork3.TabIndex = 1;
+            this.PB_Fork3.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -187,18 +203,12 @@
             this.Controls.Add(this.startButton);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PB_Fork0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PB_Fork3)).EndInit();
             this.ResumeLayout(false);
-            //
-            // BW_UpdateForm
-            //
-            this.BW_UpdateForm.WorkerReportsProgress = true;
-            this.BW_UpdateForm.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BW_UpdateForm_DoWork);
-            this.BW_UpdateForm.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.BW_UpdateForm_ProgressChanged);
 
         }
 

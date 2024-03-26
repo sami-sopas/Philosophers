@@ -57,20 +57,20 @@ namespace Philosophers
         {
             int i = (int)index;
 
-            while (philosophers[i].getMeals() < 5)
+            while (philosophers[i].getMeals() < 6)
             {
                 int forkOne = i;
                 int forkTwo = (i == 0 ? 4 : i - 1);
 
-                bool isForkOneAvailable = forks[forkOne].WaitOne(1500);
-                bool isForkTwoAvailable = forks[forkTwo].WaitOne(1500);
+                bool isForkOneAvailable = forks[forkOne].WaitOne(2500);
+                bool isForkTwoAvailable = forks[forkTwo].WaitOne(2500);
 
                 if (isForkOneAvailable && isForkTwoAvailable)
                 {
                     int waitTime = random.Next(1, 2);
 
                     philosophers[i].changeState('E');
-                    Thread.Sleep(waitTime * 1500);
+                    Thread.Sleep(waitTime * 2500);
                     philosophers[i].addMeal();
                     BW_UpdateForm.ReportProgress((i * 10) + philosophers[i].getMeals());
                     philosophers[i].changeState('W');
