@@ -39,7 +39,7 @@ namespace Philosophers
 
             this.listBox = listBox;
 
-            changeForksStateUI(false);
+            //changeForksStateUI(false);
             changePhilosopherBoxStateUI(waitingColor);
         }
 
@@ -72,11 +72,11 @@ namespace Philosophers
             switch (state)
             {
                 case 'W':
-                    changeForksStateUI(false);
+                    //changeForksStateUI(false);
                     changePhilosopherBoxStateUI(waitingColor);
                     break;
                 case 'E':
-                    changeForksStateUI(true);
+                    //changeForksStateUI(true);
                     changePhilosopherBoxStateUI(eatingColor);
                     break;
                 default:
@@ -84,36 +84,36 @@ namespace Philosophers
             }
         }
 
-        private void changeForksStateUI(bool active)
-        {
+        //private void changeForksStateUI(bool active)
+        //{
 
-            switch (id)
-            {
-                case 0:
-                    forkLeftImg = active ? Filosofos.Properties.Resources.Fork4A : Filosofos.Properties.Resources.Fork4;
-                    forkRightImg = active ? Filosofos.Properties.Resources.Fork0A : Filosofos.Properties.Resources.Fork0;
-                    break;
-                case 1:
-                    forkLeftImg = active ? Filosofos.Properties.Resources.Fork0A : Filosofos.Properties.Resources.Fork0;
-                    forkRightImg = active ? Filosofos.Properties.Resources.Fork1A : Filosofos.Properties.Resources.Fork1;
-                    break;
-                case 2:
-                    forkLeftImg = active ? Filosofos.Properties.Resources.Fork1A : Filosofos.Properties.Resources.Fork1;
-                    forkRightImg = active ? Filosofos.Properties.Resources.Fork2A : Filosofos.Properties.Resources.Fork2;
-                    break;
-                case 3:
-                    forkLeftImg = active ? Filosofos.Properties.Resources.Fork2A : Filosofos.Properties.Resources.Fork2;
-                    forkRightImg = active ? Filosofos.Properties.Resources.Fork3A : Filosofos.Properties.Resources.Fork3;
-                    break;
-                case 4:
-                    forkLeftImg = active ? Filosofos.Properties.Resources.Fork3A : Filosofos.Properties.Resources.Fork3;
-                    forkRightImg = active ? Filosofos.Properties.Resources.Fork4A : Filosofos.Properties.Resources.Fork4;
-                    break;
-            }
+        //    switch (id)
+        //    {
+        //        case 0:
+        //            forkLeftImg = active ? Filosofos.Properties.Resources.Fork4A : Filosofos.Properties.Resources.Fork4;
+        //            forkRightImg = active ? Filosofos.Properties.Resources.Fork0A : Filosofos.Properties.Resources.Fork0;
+        //            break;
+        //        case 1:
+        //            forkLeftImg = active ? Filosofos.Properties.Resources.Fork0A : Filosofos.Properties.Resources.Fork0;
+        //            forkRightImg = active ? Filosofos.Properties.Resources.Fork1A : Filosofos.Properties.Resources.Fork1;
+        //            break;
+        //        case 2:
+        //            forkLeftImg = active ? Filosofos.Properties.Resources.Fork1A : Filosofos.Properties.Resources.Fork1;
+        //            forkRightImg = active ? Filosofos.Properties.Resources.Fork2A : Filosofos.Properties.Resources.Fork2;
+        //            break;
+        //        case 3:
+        //            forkLeftImg = active ? Filosofos.Properties.Resources.Fork2A : Filosofos.Properties.Resources.Fork2;
+        //            forkRightImg = active ? Filosofos.Properties.Resources.Fork3A : Filosofos.Properties.Resources.Fork3;
+        //            break;
+        //        case 4:
+        //            forkLeftImg = active ? Filosofos.Properties.Resources.Fork3A : Filosofos.Properties.Resources.Fork3;
+        //            forkRightImg = active ? Filosofos.Properties.Resources.Fork4A : Filosofos.Properties.Resources.Fork4;
+        //            break;
+        //    }
 
-            this.forkLeft.Image = forkLeftImg;
-            this.forkRight.Image = forkRightImg;
-        }
+        //    this.forkLeft.Image = forkLeftImg;
+        //    this.forkRight.Image = forkRightImg;
+        //}
         private void changePhilosopherBoxStateUI(Color color)
         {
             box.ForeColor = color;

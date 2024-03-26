@@ -1,0 +1,10 @@
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.csproj.AssemblyReference.cache
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.Form1.resources
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.Properties.Resources.resources
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.csproj.GenerateResource.cache
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.csproj.CoreCompileInputs.cache
+C:\Users\ramir\source\repos\Philosophers\Philosophers\bin\Debug\Philosophers.exe.config
+C:\Users\ramir\source\repos\Philosophers\Philosophers\bin\Debug\Philosophers.exe
+C:\Users\ramir\source\repos\Philosophers\Philosophers\bin\Debug\Philosophers.pdb
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.exe
+C:\Users\ramir\source\repos\Philosophers\Philosophers\obj\Debug\Philosophers.pdb
