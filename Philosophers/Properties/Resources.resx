@@ -118,19 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Fork3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fork3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fork0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fork0A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork0A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fork1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fork1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fork0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fork0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fork1A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork1A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fork2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fork2A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork2A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fork3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fork3A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork3A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fork4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fork4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Fork2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fork2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Fork4A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fork4A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -81,5 +81,36 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Fork4A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork3A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork2A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork1A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork0A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fork0.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,9 +73,29 @@ namespace Philosophers.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fork0A {
+            get {
+                object obj = ResourceManager.GetObject("Fork0A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fork1 {
             get {
                 object obj = ResourceManager.GetObject("Fork1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fork1A {
+            get {
+                object obj = ResourceManager.GetObject("Fork1A", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +113,16 @@ namespace Philosophers.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fork2A {
+            get {
+                object obj = ResourceManager.GetObject("Fork2A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fork3 {
             get {
                 object obj = ResourceManager.GetObject("Fork3", resourceCulture);
@@ -103,9 +133,29 @@ namespace Philosophers.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Fork3A {
+            get {
+                object obj = ResourceManager.GetObject("Fork3A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fork4 {
             get {
                 object obj = ResourceManager.GetObject("Fork4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fork4A {
+            get {
+                object obj = ResourceManager.GetObject("Fork4A", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

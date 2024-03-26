@@ -50,7 +50,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(616, 55);
+            this.startButton.Location = new System.Drawing.Point(616, 24);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(112, 36);
             this.startButton.TabIndex = 0;
@@ -136,51 +136,61 @@
             // 
             // PB_Fork0
             // 
-            this.PB_Fork0.Image = global::Philosophers.Properties.Resources.Fork0;
+            this.PB_Fork0.BackColor = System.Drawing.Color.Transparent;
+            this.PB_Fork0.BackgroundImage = global::Philosophers.Properties.Resources.Fork0;
+            this.PB_Fork0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PB_Fork0.Location = new System.Drawing.Point(616, 427);
             this.PB_Fork0.Name = "PB_Fork0";
             this.PB_Fork0.Size = new System.Drawing.Size(130, 152);
-            this.PB_Fork0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork0.TabIndex = 5;
             this.PB_Fork0.TabStop = false;
             // 
             // PB_Fork1
             // 
-            this.PB_Fork1.Image = global::Philosophers.Properties.Resources.Fork1;
+            this.PB_Fork1.BackColor = System.Drawing.Color.Transparent;
+            this.PB_Fork1.BackgroundImage = global::Philosophers.Properties.Resources.Fork1;
+            this.PB_Fork1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PB_Fork1.Location = new System.Drawing.Point(835, 370);
             this.PB_Fork1.Name = "PB_Fork1";
             this.PB_Fork1.Size = new System.Drawing.Size(116, 116);
-            this.PB_Fork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork1.TabIndex = 4;
             this.PB_Fork1.TabStop = false;
             // 
             // PB_Fork4
             // 
-            this.PB_Fork4.Image = global::Philosophers.Properties.Resources.Fork4;
+            this.PB_Fork4.BackColor = System.Drawing.Color.Transparent;
+            this.PB_Fork4.BackgroundImage = global::Philosophers.Properties.Resources.Fork4;
+            this.PB_Fork4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PB_Fork4.Location = new System.Drawing.Point(429, 370);
             this.PB_Fork4.Name = "PB_Fork4";
             this.PB_Fork4.Size = new System.Drawing.Size(124, 123);
-            this.PB_Fork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork4.TabIndex = 3;
             this.PB_Fork4.TabStop = false;
             // 
             // PB_Fork2
             // 
-            this.PB_Fork2.Image = global::Philosophers.Properties.Resources.Fork2;
+            this.PB_Fork2.BackColor = System.Drawing.Color.Transparent;
+            this.PB_Fork2.BackgroundImage = global::Philosophers.Properties.Resources.Fork2;
+            this.PB_Fork2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PB_Fork2.Location = new System.Drawing.Point(758, 155);
             this.PB_Fork2.Name = "PB_Fork2";
             this.PB_Fork2.Size = new System.Drawing.Size(105, 98);
-            this.PB_Fork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork2.TabIndex = 2;
             this.PB_Fork2.TabStop = false;
             // 
             // PB_Fork3
             // 
-            this.PB_Fork3.Image = global::Philosophers.Properties.Resources.Fork3;
+            this.PB_Fork3.BackColor = System.Drawing.Color.Transparent;
+            this.PB_Fork3.BackgroundImage = global::Philosophers.Properties.Resources.Fork3;
+            this.PB_Fork3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.PB_Fork3.Location = new System.Drawing.Point(458, 156);
             this.PB_Fork3.Name = "PB_Fork3";
             this.PB_Fork3.Size = new System.Drawing.Size(114, 114);
-            this.PB_Fork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PB_Fork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork3.TabIndex = 1;
             this.PB_Fork3.TabStop = false;
             // 
