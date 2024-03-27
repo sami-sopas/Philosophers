@@ -62,7 +62,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(585, 2);
+            this.startButton.Location = new System.Drawing.Point(1141, 41);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(112, 36);
             this.startButton.TabIndex = 0;
@@ -78,10 +78,10 @@
             // 
             // LBL_Philosopher0
             // 
-            this.LBL_Philosopher0.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher0.Location = new System.Drawing.Point(459, 474);
+            this.LBL_Philosopher0.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Philosopher0.Location = new System.Drawing.Point(315, 640);
             this.LBL_Philosopher0.Name = "LBL_Philosopher0";
-            this.LBL_Philosopher0.Size = new System.Drawing.Size(82, 93);
+            this.LBL_Philosopher0.Size = new System.Drawing.Size(105, 48);
             this.LBL_Philosopher0.TabIndex = 7;
             this.LBL_Philosopher0.Text = "Filósofo 1";
             this.LBL_Philosopher0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -89,40 +89,41 @@
             // LBL_Philosopher4
             // 
             this.LBL_Philosopher4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.LBL_Philosopher4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher4.Location = new System.Drawing.Point(319, 273);
+            this.LBL_Philosopher4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Philosopher4.Location = new System.Drawing.Point(195, 341);
             this.LBL_Philosopher4.Name = "LBL_Philosopher4";
-            this.LBL_Philosopher4.Size = new System.Drawing.Size(82, 97);
+            this.LBL_Philosopher4.Size = new System.Drawing.Size(109, 39);
             this.LBL_Philosopher4.TabIndex = 14;
             this.LBL_Philosopher4.Text = "Filósofo 5";
             this.LBL_Philosopher4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LBL_Philosopher3
             // 
-            this.LBL_Philosopher3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher3.Location = new System.Drawing.Point(581, 72);
+            this.LBL_Philosopher3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Philosopher3.Location = new System.Drawing.Point(617, 6);
             this.LBL_Philosopher3.Name = "LBL_Philosopher3";
-            this.LBL_Philosopher3.Size = new System.Drawing.Size(82, 84);
+            this.LBL_Philosopher3.Size = new System.Drawing.Size(120, 41);
             this.LBL_Philosopher3.TabIndex = 13;
             this.LBL_Philosopher3.Text = "Filósofo 4";
             this.LBL_Philosopher3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LBL_Philosopher2
             // 
-            this.LBL_Philosopher2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher2.Location = new System.Drawing.Point(926, 264);
+            this.LBL_Philosopher2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Philosopher2.ForeColor = System.Drawing.Color.Black;
+            this.LBL_Philosopher2.Location = new System.Drawing.Point(1060, 339);
             this.LBL_Philosopher2.Name = "LBL_Philosopher2";
-            this.LBL_Philosopher2.Size = new System.Drawing.Size(82, 97);
+            this.LBL_Philosopher2.Size = new System.Drawing.Size(115, 41);
             this.LBL_Philosopher2.TabIndex = 12;
             this.LBL_Philosopher2.Text = "Filósofo 3";
             this.LBL_Philosopher2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LBL_Philosopher1
             // 
-            this.LBL_Philosopher1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LBL_Philosopher1.Location = new System.Drawing.Point(750, 474);
+            this.LBL_Philosopher1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_Philosopher1.Location = new System.Drawing.Point(930, 640);
             this.LBL_Philosopher1.Name = "LBL_Philosopher1";
-            this.LBL_Philosopher1.Size = new System.Drawing.Size(82, 93);
+            this.LBL_Philosopher1.Size = new System.Drawing.Size(95, 48);
             this.LBL_Philosopher1.TabIndex = 11;
             this.LBL_Philosopher1.Text = "Filósofo 2";
             this.LBL_Philosopher1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -134,12 +135,12 @@
             this.LB_Info.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LB_Info.ItemHeight = 17;
             this.LB_Info.Items.AddRange(new object[] {
-            " ",
-            " ",
-            " ",
-            " ",
-            " "});
-            this.LB_Info.Location = new System.Drawing.Point(19, 72);
+            "Filosofo 1 Comidas: 0  ",
+            "Filosofo 2 Comidas: 0  ",
+            "Filosofo 3 Comidas: 0  ",
+            "Filosofo 4 Comidas: 0  ",
+            "Filosofo 5 Comidas: 0  "});
+            this.LB_Info.Location = new System.Drawing.Point(26, 30);
             this.LB_Info.Name = "LB_Info";
             this.LB_Info.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.LB_Info.Size = new System.Drawing.Size(203, 289);
@@ -151,9 +152,9 @@
             this.PB_Fork0.BackColor = System.Drawing.Color.Transparent;
             this.PB_Fork0.BackgroundImage = global::Philosophers.Properties.Resources.Fork0;
             this.PB_Fork0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB_Fork0.Location = new System.Drawing.Point(598, 403);
+            this.PB_Fork0.Location = new System.Drawing.Point(617, 517);
             this.PB_Fork0.Name = "PB_Fork0";
-            this.PB_Fork0.Size = new System.Drawing.Size(120, 139);
+            this.PB_Fork0.Size = new System.Drawing.Size(120, 128);
             this.PB_Fork0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork0.TabIndex = 5;
             this.PB_Fork0.TabStop = false;
@@ -163,9 +164,9 @@
             this.PB_Fork1.BackColor = System.Drawing.Color.Transparent;
             this.PB_Fork1.BackgroundImage = global::Philosophers.Properties.Resources.Fork1;
             this.PB_Fork1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB_Fork1.Location = new System.Drawing.Point(804, 348);
+            this.PB_Fork1.Location = new System.Drawing.Point(776, 386);
             this.PB_Fork1.Name = "PB_Fork1";
-            this.PB_Fork1.Size = new System.Drawing.Size(116, 123);
+            this.PB_Fork1.Size = new System.Drawing.Size(173, 169);
             this.PB_Fork1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork1.TabIndex = 4;
             this.PB_Fork1.TabStop = false;
@@ -175,7 +176,7 @@
             this.PB_Fork4.BackColor = System.Drawing.Color.Transparent;
             this.PB_Fork4.BackgroundImage = global::Philosophers.Properties.Resources.Fork4;
             this.PB_Fork4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB_Fork4.Location = new System.Drawing.Point(407, 348);
+            this.PB_Fork4.Location = new System.Drawing.Point(440, 398);
             this.PB_Fork4.Name = "PB_Fork4";
             this.PB_Fork4.Size = new System.Drawing.Size(115, 123);
             this.PB_Fork4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -187,9 +188,9 @@
             this.PB_Fork2.BackColor = System.Drawing.Color.Transparent;
             this.PB_Fork2.BackgroundImage = global::Philosophers.Properties.Resources.Fork2;
             this.PB_Fork2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB_Fork2.Location = new System.Drawing.Point(729, 121);
+            this.PB_Fork2.Location = new System.Drawing.Point(735, 145);
             this.PB_Fork2.Name = "PB_Fork2";
-            this.PB_Fork2.Size = new System.Drawing.Size(163, 138);
+            this.PB_Fork2.Size = new System.Drawing.Size(177, 160);
             this.PB_Fork2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork2.TabIndex = 2;
             this.PB_Fork2.TabStop = false;
@@ -199,9 +200,9 @@
             this.PB_Fork3.BackColor = System.Drawing.Color.Transparent;
             this.PB_Fork3.BackgroundImage = global::Philosophers.Properties.Resources.Fork3;
             this.PB_Fork3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.PB_Fork3.Location = new System.Drawing.Point(413, 121);
+            this.PB_Fork3.Location = new System.Drawing.Point(434, 151);
             this.PB_Fork3.Name = "PB_Fork3";
-            this.PB_Fork3.Size = new System.Drawing.Size(148, 150);
+            this.PB_Fork3.Size = new System.Drawing.Size(179, 171);
             this.PB_Fork3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PB_Fork3.TabIndex = 1;
             this.PB_Fork3.TabStop = false;
@@ -209,9 +210,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Philosophers.Properties.Resources.table;
-            this.pictureBox1.Location = new System.Drawing.Point(300, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(310, 51);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(740, 663);
+            this.pictureBox1.Size = new System.Drawing.Size(732, 682);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
@@ -219,9 +220,11 @@
             // PB_Plate1
             // 
             this.PB_Plate1.BackColor = System.Drawing.Color.Transparent;
-            this.PB_Plate1.Location = new System.Drawing.Point(686, 297);
+            this.PB_Plate1.BackgroundImage = global::Philosophers.Properties.Resources.WaitingPlate;
+            this.PB_Plate1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PB_Plate1.Location = new System.Drawing.Point(764, 527);
             this.PB_Plate1.Name = "PB_Plate1";
-            this.PB_Plate1.Size = new System.Drawing.Size(134, 118);
+            this.PB_Plate1.Size = new System.Drawing.Size(130, 117);
             this.PB_Plate1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PB_Plate1.TabIndex = 17;
             this.PB_Plate1.TabStop = false;
@@ -229,9 +232,11 @@
             // PB_Plate0
             // 
             this.PB_Plate0.BackColor = System.Drawing.Color.Transparent;
-            this.PB_Plate0.Location = new System.Drawing.Point(529, 297);
+            this.PB_Plate0.BackgroundImage = global::Philosophers.Properties.Resources.WaitingPlate;
+            this.PB_Plate0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PB_Plate0.Location = new System.Drawing.Point(453, 527);
             this.PB_Plate0.Name = "PB_Plate0";
-            this.PB_Plate0.Size = new System.Drawing.Size(134, 118);
+            this.PB_Plate0.Size = new System.Drawing.Size(136, 117);
             this.PB_Plate0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PB_Plate0.TabIndex = 18;
             this.PB_Plate0.TabStop = false;
@@ -239,7 +244,9 @@
             // PB_Plate4
             // 
             this.PB_Plate4.BackColor = System.Drawing.Color.Transparent;
-            this.PB_Plate4.Location = new System.Drawing.Point(160, 273);
+            this.PB_Plate4.BackgroundImage = global::Philosophers.Properties.Resources.WaitingPlate;
+            this.PB_Plate4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PB_Plate4.Location = new System.Drawing.Point(337, 301);
             this.PB_Plate4.Name = "PB_Plate4";
             this.PB_Plate4.Size = new System.Drawing.Size(134, 118);
             this.PB_Plate4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -249,7 +256,9 @@
             // PB_Plate3
             // 
             this.PB_Plate3.BackColor = System.Drawing.Color.Transparent;
-            this.PB_Plate3.Location = new System.Drawing.Point(445, -14);
+            this.PB_Plate3.BackgroundImage = global::Philosophers.Properties.Resources.WaitingPlate;
+            this.PB_Plate3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PB_Plate3.Location = new System.Drawing.Point(607, 77);
             this.PB_Plate3.Name = "PB_Plate3";
             this.PB_Plate3.Size = new System.Drawing.Size(134, 118);
             this.PB_Plate3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -259,7 +268,9 @@
             // PB_Plate2
             // 
             this.PB_Plate2.BackColor = System.Drawing.Color.Transparent;
-            this.PB_Plate2.Location = new System.Drawing.Point(1062, 252);
+            this.PB_Plate2.BackgroundImage = global::Philosophers.Properties.Resources.WaitingPlate;
+            this.PB_Plate2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.PB_Plate2.Location = new System.Drawing.Point(877, 301);
             this.PB_Plate2.Name = "PB_Plate2";
             this.PB_Plate2.Size = new System.Drawing.Size(134, 118);
             this.PB_Plate2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -270,12 +281,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1274, 677);
-            this.Controls.Add(this.PB_Plate2);
-            this.Controls.Add(this.PB_Plate3);
-            this.Controls.Add(this.PB_Plate4);
+            this.ClientSize = new System.Drawing.Size(1323, 755);
             this.Controls.Add(this.PB_Plate0);
+            this.Controls.Add(this.PB_Plate4);
             this.Controls.Add(this.PB_Plate1);
+            this.Controls.Add(this.PB_Plate2);
+            this.Controls.Add(this.PB_Fork4);
+            this.Controls.Add(this.PB_Fork1);
+            this.Controls.Add(this.PB_Plate3);
             this.Controls.Add(this.LB_Info);
             this.Controls.Add(this.LBL_Philosopher4);
             this.Controls.Add(this.LBL_Philosopher3);
@@ -283,8 +296,6 @@
             this.Controls.Add(this.LBL_Philosopher1);
             this.Controls.Add(this.LBL_Philosopher0);
             this.Controls.Add(this.PB_Fork0);
-            this.Controls.Add(this.PB_Fork1);
-            this.Controls.Add(this.PB_Fork4);
             this.Controls.Add(this.PB_Fork2);
             this.Controls.Add(this.PB_Fork3);
             this.Controls.Add(this.startButton);

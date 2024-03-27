@@ -86,6 +86,15 @@ namespace Philosophers
                     forks[forkTwo].Release();
                 }
             }
+
+            //  Salida cuando todos los filósofos hayan comido al menos 6 veces
+            if (philosophers.All(p => p.getMeals() >= 6))
+            {
+                MessageBox.Show("Todos los filósofos han comido al menos 6 veces");
+                Application.Exit();
+            }
+
+
         }
 
         private void BW_UpdateForm_ProgressChanged(object sender, ProgressChangedEventArgs e)

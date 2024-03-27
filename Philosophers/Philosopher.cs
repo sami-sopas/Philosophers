@@ -25,8 +25,8 @@ namespace Philosophers
         PictureBox forkLeft = null, forkRight = null;
         PictureBox plate = null;
 
-        Color waitingColor = Color.FromName("SkyBlue");
-        Color eatingColor = Color.FromName("LimeGreen");
+        Color waitingColor = Color.FromName("Black");
+        Color eatingColor = Color.FromName("Orange");
 
         public Philosopher(int id,
                             int forkOne,
